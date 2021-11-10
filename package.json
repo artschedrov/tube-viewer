@@ -1,0 +1,27 @@
+{
+  "name": "tube-viewer",
+  "version": "0.0.7",
+  "description": "CLI tool for viewing videos from YT",
+  "main": "./lib/tube-viewer",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bin": {
+    "tube-viewer": "./bin/index.js"
+  },
+  "author": "kusarigama",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "exec-sh": "^0.4.0",
+    "node-html-parser": "^4.1.0",
+    "prompts": "^2.4.1"
+  }
+}
